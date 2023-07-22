@@ -4,3 +4,4 @@ I used the LoginSocialFacebook component provided by the reactjs-social-login li
 For testing purposes, I have generated an access token using Postman and fetched the information.
 
 ![11](https://github.com/Rohit0675/GoogleoAuth-FacebookLogin/assets/122914504/2e73f40a-31f5-47a7-b7b2-1189c06d55f7)
+
