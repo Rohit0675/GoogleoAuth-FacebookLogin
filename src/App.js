@@ -5,7 +5,7 @@ import { LoginSocialFacebook } from "reactjs-social-login";
 
 
 function App() {
- 
+
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', margin: 0, padding: 0, backgroundColor: '#f7f7f7' }}>
@@ -16,7 +16,7 @@ function App() {
 
     <h2 style={{ textAlign: 'center', fontSize: '1.5rem', fontWeight: 'bold', marginTop: '5vh', padding: '0.5rem', backgroundColor: '#ffffff' }}>Login Using Google</h2>
     <div className="social-button" style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-      <GoogleOAuthProvider clientId="921484653435-r2096oprhbr012qatue5h0o9j0nbfqln.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId="">
         <GoogleLogin
           onSuccess={(credentialResponse) => {
             console.log(credentialResponse)
@@ -34,7 +34,7 @@ function App() {
     <h2 style={{ textAlign: 'center', fontSize: '1.5rem', fontWeight: 'bold', marginTop: '5vh', padding: '0.5rem', backgroundColor: '#ffffff' }}>Login Using Facebook</h2>
     <div className="social-button" style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
       <LoginSocialFacebook
-        appId="1280553785999076"
+        appId=""
         onResolve={(response) => {
           console.log(response);
         }}
